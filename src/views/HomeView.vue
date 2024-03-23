@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import CollectionSection from '@/components/home/CollectionSection.vue'
+import CreatorSection from '@/components/home/CreatorSection.vue'
+import KeyVisualSection from '@/components/home/KeyVisualSection.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <KeyVisualSection />
+    <CollectionSection />
+    <CreatorSection />
+  </div>
 </template>
