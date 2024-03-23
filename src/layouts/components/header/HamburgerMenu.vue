@@ -43,12 +43,16 @@ const handleClick = () => {
 
 .hamburger-menu
   position: absolute
+  z-index: 100
   top: 34px
   right: 16px
   width: max-content
   background-color: $background-secondary
   padding: 20px 0
   display: none
+  li
+    &:hover
+      backdrop-filter: brightness(120%)
   &.show
     display: block
 </style>
